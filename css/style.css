@@ -4,14 +4,21 @@
 }
 
 body{
-  background-color: grey;
+  background-color: #ffffff;
 }
 
 .jumbotron{
+  font-family: fantasy;
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
 }
 
 .card-title{
   color: blue;
+  font-family: sans-serif;
+}
+
+.card-text{
+  color: grey;
+  font-family: sans-serif;
 }
