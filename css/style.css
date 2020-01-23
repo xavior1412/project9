@@ -13,12 +13,38 @@ body{
   background-repeat: no-repeat;
 }
 
-.card-title{
-  color: blue;
+.container-fluid{
+  margin-bottom: 50px;
+}
+
+#border{
+  border-style: double;
+  border-color: #563d7c;
+}
+
+#border2{
+  border-style: ridge;
+  border-color: red;
+  background-color: #563d7c;
+}
+
+#title{
+  color: #563d7c;
   font-family: sans-serif;
+  padding-bottom: 20px;
 }
 
 .card-text{
   color: grey;
   font-family: sans-serif;
+}
+
+.card-deck{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron2 {
+  font-family: fantasy;
+  background-color: #563d7c;
 }
